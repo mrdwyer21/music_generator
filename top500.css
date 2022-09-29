@@ -54,7 +54,7 @@ body {
     }
 }
 
-.container {
+#album-info {
     background-color: #ffe8d6;
     text-align: center;
     border-radius: 10px;

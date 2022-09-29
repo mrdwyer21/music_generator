@@ -1,4 +1,5 @@
 'use strict';
+const albumInfo = document.getElementById('album-info')
 function randomAlbum() {
     let num = Math.floor(Math.random() * albums.length);
     return albums[num];
@@ -15,8 +16,10 @@ function generateAlbum() {
     artistEl.innerText = albumData.Artist;
     infoEl.innerText = albumData.Info;
     descripEl.innerText = albumData.Description;
+    albumInfo.hidden = false;
 }
 
 const buttonEl = document.querySelector('.play-btn');
 buttonEl.addEventListener('click', generateAlbum);
 
+albumInfo.hidden = true;
