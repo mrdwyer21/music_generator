@@ -55,9 +55,12 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: #ffe8d6;
     text-align: center;
-    border: 2px solid black;
+    border-radius: 10px;
+    /*opacity: 0.9;*/
+    box-shadow: 12px 12px 2px 1px rgba(255, 0, 128, 0.5);
+
 
 }
 
